@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projektübersicht</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Testübersicht</h1>
+    <p>Falls Sie das erste Mal hier sind und nicht wissen, welche Tests Sie benötigen, oder alle empfohlenen Tests durchführen möchten, klicken Sie bitte auf 'Klassische Hörtests':<p>Ansonsten haben Sie hier die Möglichkeit, die für Sie notwendigen Tests auszuwählen. Es macht Sinn in Intervallen auch ohne Hörstörung oder auch bei Stimmstörungen einen Hörtests zu machen. </p>
+    <div class="button-container">
+        <button onclick="redirect('https://anamnese-und-hoertest.glitch.me')">Chatbot und Hörtests</button>
+        <button onclick="redirect('https://mottier-test.glitch.me')">Hörwahrnehmung I Mottier</button>
+        <button onclick="redirect('https://diskrimination.glitch.me')">Hörwahrnehmung II Diskrimination</button>
+        <button onclick="redirect('https://dichotischer-hoertest.glitch.me')">Hörwahrnehmung III Dichotisch</button><p>
+        <p><button onclick="redirect('https://voice-handicap-index.glitch.me')">Fragebogen Stimme</button>
+        <button onclick="redirect('https://stimmanalyse.glitch.me')">Stimmanalyse</button>
+    </div>
+    <script>
+        function redirect(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
